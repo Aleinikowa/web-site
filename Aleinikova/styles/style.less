@@ -1,0 +1,228 @@
+@import 'reset.less';
+
+@Lato-Thin: 'Lato-Thin', sans-serif;
+@Lato-Light: 'Lato-Light', sans-serif;
+@Lato-Regular: 'Lato-Regular', sans-serif;
+
+@Comm: 'Commissioner', sans-serif;
+
+@padding-content: 20px;
+@color-btn-filled: #DEC377;
+@color-background-light-grey: #E5E5E5;
+
+@font-face {
+    font-family: 'Lato-Regular';
+	src: url(../fonts/lato/Lato-Regular.ttf); 
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+	src: url(../fonts/lato/Lato-Light.ttf); 
+}
+
+@font-face {
+	font-family: 'Lato-Thin';
+	src: url(../fonts/lato/Lato-Thin.ttf);
+}
+
+h1 {
+	font-family: @Comm;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 50px;
+	letter-spacing: 0.01em;
+	opacity: 0.9;
+	display: block;
+} 
+
+h2 {
+	font-family: @Comm;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 40px;
+	letter-spacing: 0.03em;
+	color: rgba(0, 0, 0, 0.9);
+}
+
+h3 {
+	font-family: @Lato-Regular;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+h4 {
+	font-family: @Lato-Thin;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+h5 {
+	font-family: @Comm;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.footer-caption() {
+	font-family: @Comm;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 0.01em;
+}
+
+.footer-email() {
+	font-family: @Lato-Light;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-commissioner() {
+	font-family:  @Lato-Light;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-caption-commissioner() {
+	font-family: @Comm;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 25px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.footer-btn() {
+	font-family: @Lato-Light;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.footer-additional-text() {
+	font-family: @Lato-Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-bottom-text() {
+	font-family: @Lato-Light;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.link-more-style() {
+	font-family: @Comm;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-fill() {
+	background: @color-btn-filled;
+	border-radius: 2px;
+	border: 2px solid @color-btn-filled;
+	font-family: @Comm;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	height: 45px;
+}
+
+.btn-no-fill() {
+	background: white;
+	border-radius: 2px;
+	border: 2px solid @color-btn-filled;
+	font-family:  @Comm;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: @color-btn-filled;
+	height: 45px;
+}
+
+.link-style() {
+	text-decoration: none;
+	color: black;
+}
+.link-hover-style() {
+	cursor: pointer;
+	color: black;
+}
+
+.max-width() {
+    max-width: 1920px;
+	min-width: 500px;
+	margin: 0 auto;
+}
+
+.max-width-content() {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.font-Commissioner() {
+	font-family: @Comm;
+	font-style: normal;
+}
+
+.sourceSans-style() {
+    display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgba(0, 0, 0, 0.8);
+	opacity: 0.6;
+}
+
+.center-group() {
+	display: flex;
+	align-items: center;
+}
+
